@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Generated models and training outputs
+*.keras
+*.h5
+models/*
+!models/.gitkeep
+
+# Generated data / reports
+RiceLeaf_Dataset/
+RiceLeaf_Temp/
+reports/*
+!reports/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
